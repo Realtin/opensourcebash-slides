@@ -283,3 +283,20 @@ body {
 
 .margin {
   margin: -2em 0 3em !important; }
+
+blockquote cite {
+  font-size: 20px !important;
+  display: block;
+  text-align: right;
+  margin-top: 2em !important; }
+
+.reveal ul li {
+  list-style: none; }
+  .reveal ul li:before {
+    content: "*";
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 0.2em;
+    font-weight: 600;
+    margin-right: 0.3em;
+    font-size: 50px; }
